@@ -1,59 +1,41 @@
 import styled from "styled-components";
 
 export const Footer = styled.div`
-  background-image: url(/assets/Gracias.png);
-  background-repeat: no-repeat;
-  background-size: cover;
   width: 100%;
-  color: black;
-
-  .gracias {
-    font-family: "Lavishly Yours", cursive;
-    line-height: 150% !important;
-    font-size: 5rem !important;
-    width: 14ch;
-    display: block;
-    overflow: hidden;
-    white-space: nowrap;
-    border-right: 0.03em solid #ad8328;
-    animation: escribiendo 5s steps(35) infinite alternate,
-      blink 1s steps(1) infinite;
-  }
 
   .dev {
-    background-color: #bb5268;
+    background-color: black;
+    z-index: 9999;
     color: white;
   }
 
-  .dev-text, .bi-instagram {
+  .dev-text,
+  .bi-instagram {
     font-size: 0.8rem;
   }
 
-  a{
+  a {
     text-decoration: none;
     color: white;
     cursor: pointer;
     padding: 2px 3px;
-
   }
 
-  a:hover{
-    background-color: #B46374;
+  a:hover {
+    background-color: #b46374;
     border-radius: 3px;
-    transition: .5s;
+    transition: 0.5s;
   }
-
 
   @media (max-width: 769px) {
-
-    .corazon{
+    .corazon {
       width: 70px;
     }
-    
-    .fin{
+
+    .fin {
       font-size: 1rem !important;
     }
-    
+
     .gracias {
       font-size: 2.5rem !important;
     }

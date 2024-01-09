@@ -1,8 +1,13 @@
 import styled from "styled-components";
 
 export const Asistencia = styled.div`
-  background-color: #f0e0e372;
-  color: black;
+  background: white;
+  transform: skewY(3deg);
+  transform-origin: top right;
+
+  .box {
+    transform: skewY(-3deg) !important;
+  }
 
   .div-projects {
     overflow: hidden;
@@ -11,6 +16,7 @@ export const Asistencia = styled.div`
   .texto {
     font-size: 1.1rem;
     margin: 0;
+    font-weight: 400;
     letter-spacing: 1px;
   }
 
@@ -23,17 +29,39 @@ export const Asistencia = styled.div`
   }
 
   .btn {
-    border-radius: 50px;
-    background: #bb5268;
-    color: #fff;
+    padding: 8px 20px;
     font-size: 1rem;
+    border: 2px solid #d2a84e;
     font-weight: 500;
-    letter-spacing: 2.5px;
-    filter: drop-shadow(-5px 5px 1px rgba(0, 0, 0, 0.25));
+    letter-spacing: 1px;
+    border-radius: 0px;
+    transition: 0.25s;
+    box-shadow: 0 0 0 2em rgba(255, 255, 255, 0);
+    animation-name: pulse;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-in-out;
   }
 
-  .btn:hover {
-    background: #c66c7f;
+  .btn: hover {
+    color: #d2a84e;
+  }
+
+  .pulse {
+    --color: #d2a84e;
+    --hover: #d2a84e;
+  }
+
+  @-webkit-keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
+    }
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 var(--hover);
+    }
   }
 
   @media (max-width: 769px) {
