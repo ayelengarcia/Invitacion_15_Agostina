@@ -9,14 +9,13 @@ export const Title = styled.div`
 
   background-image: url(/assets/fondo.png);
   background-size: cover;
-  
 
   animation: fadeIn 1 1s ease-out;
 
   .light {
     position: absolute;
     width: 0px;
-    opacity: .75;
+    opacity: 0.55;
     background-color: white;
     box-shadow: #e9f1f1 0px 0px 20px 2px;
     opacity: 0;
@@ -25,93 +24,145 @@ export const Title = styled.div`
     left: 0px;
     right: 0px;
     margin: auto;
-}
+  }
 
-.x1{
-  animation: floatUp 4s infinite linear;
-  transform: scale(1.0);
-}
+  .x1 {
+    animation: floatUp 4s infinite linear;
+    transform: scale(1);
+  }
 
-.x2{
-  animation: floatUp 7s infinite linear;
-  transform: scale(1.6);
-  left: 15%;
-}
+  .x2 {
+    animation: floatUp 7s infinite linear;
+    transform: scale(1.6);
+    left: 15%;
+  }
 
-.x3{
-  animation: floatUp 2.5s infinite linear;
-  transform: scale(.5);
-  left: -15%;
-}
+  .x3 {
+    animation: floatUp 2.5s infinite linear;
+    transform: scale(0.5);
+    left: -15%;
+  }
 
-.x4{
-  animation: floatUp 4.5s infinite linear;
-  transform: scale(1.2);
-  left: -34%;
-}
+  .x4 {
+    animation: floatUp 4.5s infinite linear;
+    transform: scale(1.2);
+    left: -34%;
+  }
 
-.x5{
-  animation: floatUp 8s infinite linear;
-  transform: scale(2.2);
-  left: -57%;
-}
+  .x5 {
+    animation: floatUp 8s infinite linear;
+    transform: scale(2.2);
+    left: -57%;
+  }
 
-.x6{
-  animation: floatUp 3s infinite linear;
-  transform: scale(.8);
-  left: -81%;
-}
+  .x6 {
+    animation: floatUp 3s infinite linear;
+    transform: scale(0.8);
+    left: -81%;
+  }
 
-.x7{
-  animation: floatUp 5.3s infinite linear;
-  transform: scale(3.2);
-  left: 37%;
-}
+  .x7 {
+    animation: floatUp 5.3s infinite linear;
+    transform: scale(3.2);
+    left: 37%;
+  }
 
-.x8{
-  animation: floatUp 4.7s infinite linear;
-  transform: scale(1.7);
-  left: 62%;
-}
+  .x8 {
+    animation: floatUp 4.7s infinite linear;
+    transform: scale(1.7);
+    left: 62%;
+  }
 
-.x9{
-  animation: floatUp 4.1s infinite linear;
-  transform: scale(0.9);
-  left: 85%;
-}
+  .x9 {
+    animation: floatUp 4.1s infinite linear;
+    transform: scale(0.9);
+    left: 85%;
+  }
 
-button:focus{
-  outline: none;
-}
+  button:focus {
+    outline: none;
+  }
 
-@-webkit-keyframes floatUp{
-  0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
-  50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
-  100%{top: -100vh; opacity: 0;}
-}
-@-moz-keyframes floatUp{
-  0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
-  50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
-  100%{top: -100vh; opacity: 0;}
-}
-@-o-keyframes floatUp{
-  0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
-  50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
-  100%{top: -100vh; opacity: 0;}
-}
-@keyframes floatUp{
-  0%{top: 100vh; opacity: 0;}
-  25%{opacity: 1;}
-  50%{top: 0vh; opacity: .8;}
-  75%{opacity: 1;}
-  100%{top: -100vh; opacity: 0;}
-}
+  @-webkit-keyframes floatUp {
+    0% {
+      top: 100vh;
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      top: 0vh;
+      opacity: 0.8;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      top: -100vh;
+      opacity: 0;
+    }
+  }
+  @-moz-keyframes floatUp {
+    0% {
+      top: 100vh;
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      top: 0vh;
+      opacity: 0.8;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      top: -100vh;
+      opacity: 0;
+    }
+  }
+  @-o-keyframes floatUp {
+    0% {
+      top: 100vh;
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      top: 0vh;
+      opacity: 0.8;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      top: -100vh;
+      opacity: 0;
+    }
+  }
+  @keyframes floatUp {
+    0% {
+      top: 100vh;
+      opacity: 0;
+    }
+    25% {
+      opacity: 1;
+    }
+    50% {
+      top: 0vh;
+      opacity: 0.8;
+    }
+    75% {
+      opacity: 1;
+    }
+    100% {
+      top: -100vh;
+      opacity: 0;
+    }
+  }
 
   .presentacion {
     color: black;
@@ -156,7 +207,7 @@ button:focus{
     animation-delay: 3s;
   }
 
-    @media (max-width: 1000px) {
+  @media (max-width: 1000px) {
     background-image: url(/assets/fondomobile.png);
     background-size: cover;
     padding: 0px !important;
@@ -178,5 +229,59 @@ button:focus{
     .agos {
       font-size: 3rem !important;
       top: -100px;
+    }
+
+    .x1 {
+      animation: floatUp 4s infinite linear;
+      transform: scale(0.5);
+    }
+
+    .x2 {
+      animation: floatUp 7s infinite linear;
+      transform: scale(1);
+      left: 15%;
+    }
+
+    .x3 {
+      animation: floatUp 2.5s infinite linear;
+      transform: scale(0.2);
+      left: -15%;
+    }
+
+    .x4 {
+      animation: floatUp 4.5s infinite linear;
+      transform: scale(0.8);
+      left: -34%;
+    }
+
+    .x5 {
+      animation: floatUp 8s infinite linear;
+      transform: scale(1.8);
+      left: -57%;
+    }
+
+    .x6 {
+      animation: floatUp 3s infinite linear;
+      transform: scale(0.5);
+      left: -81%;
+    }
+
+    .x7 {
+      animation: floatUp 5.3s infinite linear;
+      transform: scale(2);
+      left: 37%;
+    }
+
+    .x8 {
+      animation: floatUp 4.7s infinite linear;
+      transform: scale(1.1);
+      left: 62%;
+    }
+
+    .x9 {
+      animation: floatUp 4.1s infinite linear;
+      transform: scale(0.5);
+      left: 85%;
+    }
   }
 `;
