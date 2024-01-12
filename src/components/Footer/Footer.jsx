@@ -11,10 +11,11 @@ const footer = () => {
           Desarrollo Web:{" "}
           <a
             className="dev-text d-flex align-items-center no-wrap ms-1"
-            href="https://www.instagram.com/giselle_ayelen/"
+            href="https://brujulaportfolio.netlify.app/"
             target="_blank"
           >
-            <i className="bi bi-instagram pe-1"></i> AyelenGiselle
+            <i className="bi bi-suitcase-lg pe-1"></i>
+            brujulaportfolio.netlify.app
           </a>
         </p>
       </div>

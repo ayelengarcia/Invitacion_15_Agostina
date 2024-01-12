@@ -121,7 +121,7 @@ export const Ubicacion = styled.div`
   }
 
   @media (max-width: 769px) {
-    background-image: url(/assets/fondo2-mobile.jpg);
+    background-image: url(/assets/fondomobile2.png);
     background-size: cover;
 
     .contador {

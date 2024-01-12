@@ -4,7 +4,6 @@ import Invitation from "./components/Invitation/Invitation";
 import Ubicacion from "./components/Ubicacion/Ubicacion";
 import Asistencia from "./components/Asistencia/Asistencia";
 import Footer from "./components/Footer/Footer";
-import { Animations } from "./Keyframes.styled";
 
 function App() {
   return (
@@ -15,7 +14,6 @@ function App() {
       <Ubicacion />
       <Asistencia />
       <Footer />
-      <Animations />
     </div>
   );
 }

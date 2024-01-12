@@ -29,8 +29,9 @@ export const Header = styled.header`
   }
 
   .logo_menu {
-    width: 3.5rem;
+    width: 2.7rem;
   }
+
   .menu {
     padding: 8px 20px;
     font-size: 1rem;
@@ -55,5 +56,11 @@ export const Header = styled.header`
   .bi-geo-alt-fill {
     color: #f9f9f9;
     font-size: 0.6rem;
+  }
+
+  @media (max-width: 800px) {
+    .menu {
+      font-size: 0.9rem;
+    }
   }
 `;

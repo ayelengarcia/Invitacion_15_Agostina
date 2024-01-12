@@ -6,13 +6,13 @@ export const Title = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 100%;
 
   background-image: url(/assets/fondo.png);
   background-size: cover;
 
   .presentacion {
     color: black;
+    padding-top: 30px !important;
   }
 
   h1 {
@@ -38,10 +38,6 @@ export const Title = styled.div`
     top: -200px;
     z-index: 10001;
     color: white;
-  }
-
-  @media (max-width: 769px) {
-    background-image: url(/assets/fondo.png);
   }
 
   .animate__zoomIn {
@@ -400,5 +396,30 @@ export const Title = styled.div`
     to {
       transform: translateY(600px);
     }
+  }
+
+
+    @media (max-width: 1000px) {
+    background-image: url(/assets/fondomobile.png);
+    background-size: cover;
+    padding: 0px !important;
+
+    .presentacion {
+      padding: 0px !important;
+    }
+
+    h1 {
+      margin: 0px !important;
+      font-size: 5rem !important;
+    }
+
+    .años {
+      font-size: 3rem !important;
+      top: -70px;
+    }
+
+    .agos {
+      font-size: 3rem !important;
+      top: -100px;
   }
 `;

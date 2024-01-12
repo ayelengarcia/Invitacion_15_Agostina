@@ -18,11 +18,12 @@ export const Footer = styled.div`
     text-decoration: none;
     color: white;
     cursor: pointer;
-    padding: 2px 3px;
+    padding: 1px 7px;
   }
 
   a:hover {
-    background-color: #b46374;
+    background-color: white;
+    color: black;
     border-radius: 3px;
     transition: 0.5s;
   }

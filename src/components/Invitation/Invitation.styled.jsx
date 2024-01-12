@@ -68,8 +68,12 @@ export const Invitation = styled.div`
       width: 2.5rem;
     }
 
+    .img_fecha {
+      width: 15rem;
+    }
+
     .texto {
-      font-size: 1rem;
+      font-size: 0.8rem;
       letter-spacing: 1px;
     }
 

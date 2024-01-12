@@ -7,6 +7,7 @@ export const Asistencia = styled.div`
 
   .box {
     transform: skewY(-3deg) !important;
+    padding: 0px !important;
   }
 
   .div-projects {
@@ -66,7 +67,7 @@ export const Asistencia = styled.div`
 
   @media (max-width: 769px) {
     .texto {
-      font-size: 0.9rem;
+      font-size: 0.8rem;
     }
 
     .icon {
