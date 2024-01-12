@@ -172,7 +172,7 @@ export const Title = styled.div`
   h1 {
     font-family: "Lavishly Yours";
     line-height: 150% !important;
-    font-size: 10rem !important;
+    font-size: 160px;
     z-index: 10000;
     position: relative;
     color: white;
@@ -180,7 +180,7 @@ export const Title = styled.div`
 
   .años {
     position: relative;
-    font-size: 7rem !important;
+    font-size: 120px;
     top: -160px;
     z-index: 10001;
     color: #d2a84e;
@@ -188,7 +188,7 @@ export const Title = styled.div`
 
   .agos {
     position: relative;
-    font-size: 7rem !important;
+    font-size: 120px;
     top: -200px;
     z-index: 10001;
     color: white;
@@ -218,16 +218,16 @@ export const Title = styled.div`
 
     h1 {
       margin: 0px !important;
-      font-size: 5rem !important;
+      font-size: 90px;
     }
 
     .años {
-      font-size: 3rem !important;
+      font-size: 50px;
       top: -70px;
     }
 
     .agos {
-      font-size: 3rem !important;
+      font-size: 50px;
       top: -100px;
     }
 
