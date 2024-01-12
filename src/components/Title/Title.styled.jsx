@@ -6,11 +6,10 @@ export const Title = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-
-  background-image: url(/assets/fondo.png);
-  background-size: cover;
-
   animation: fadeIn 1 1s ease-out;
+  background-image: url(/assets/fondomobile.png);
+  background-size: cover;
+  padding: 0px !important;
 
   .light {
     position: absolute;
@@ -77,10 +76,6 @@ export const Title = styled.div`
     animation: floatUp 4.1s infinite linear;
     transform: scale(0.9);
     left: 85%;
-  }
-
-  button:focus {
-    outline: none;
   }
 
   @-webkit-keyframes floatUp {
@@ -172,63 +167,44 @@ export const Title = styled.div`
   h1 {
     font-family: "Lavishly Yours";
     line-height: 150% !important;
-    font-size: 160px;
+    font-size: 110px;
     z-index: 10000;
     position: relative;
     color: white;
+    margin: 50px;
   }
 
   .años {
     position: relative;
-    font-size: 120px;
-    top: -160px;
+    font-size: 80px;
+    top: -140px;
     z-index: 10001;
     color: #d2a84e;
   }
 
   .agos {
     position: relative;
-    font-size: 120px;
-    top: -200px;
+    font-size: 60px;
+    top: -180px;
     z-index: 10001;
     color: white;
   }
 
-  .animate__zoomIn {
-    animation-duration: 4s;
-  }
-
-  .animate__backInUp {
-    animation-duration: 4s;
-  }
-
-  .animate__fadeInRight {
-    animation-duration: 3s;
-    animation-delay: 3s;
-  }
-
-  @media (max-width: 1000px) {
-    background-image: url(/assets/fondomobile.png);
-    background-size: cover;
-    padding: 0px !important;
-
-    .presentacion {
-      padding: 0px !important;
-    }
+  @media (min-width: 800px) {
+    background-image: url(/assets/fondo.png);
 
     h1 {
-      margin: 0px !important;
-      font-size: 90px;
+      font-size: 160px;
     }
 
     .años {
-      font-size: 50px;
-      top: -70px;
+      font-size: 120px;
+      top: -170px;
     }
 
     .agos {
-      font-size: 50px;
-      top: -100px;
+      font-size: 110px;
+      top: -220px;
     }
 
     .x1 {
@@ -283,5 +259,18 @@ export const Title = styled.div`
       transform: scale(0.5);
       left: 85%;
     }
+  }
+
+  .animate__zoomIn {
+    animation-duration: 4s;
+  }
+
+  .animate__backInUp {
+    animation-duration: 4s;
+  }
+
+  .animate__fadeInRight {
+    animation-duration: 3s;
+    animation-delay: 3s;
   }
 `;

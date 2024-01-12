@@ -9,8 +9,8 @@ export const Invitation = styled.div`
   position: relative;
 
   .box {
+    margin: 30px 0px;
     transform: skewY(3deg) !important;
-    margin-top: -30px;
   }
 
   .logo {
@@ -18,7 +18,7 @@ export const Invitation = styled.div`
   }
 
   .img_fecha {
-    width: 18rem;
+    width: 15rem;
   }
 
   .texto {
@@ -63,39 +63,9 @@ export const Invitation = styled.div`
     transform: none;
   }
 
-  @media (max-width: 769px) {
-    .box {
-      margin: 30px 0px !important;
-    }
-
-    .logo {
-      width: 2.5rem;
-    }
-
+  @media (min-width: 769px) {
     .img_fecha {
-      width: 15rem;
-    }
-
-    .texto {
-      font-size: 0.8rem;
-      letter-spacing: 1px;
-    }
-
-    .mes {
-      font-size: 1.1rem;
-    }
-
-    .año {
-      font-size: 1.2rem;
-    }
-
-    .dia {
-      font-size: 1.5rem;
-    }
-
-    .hora {
-      letter-spacing: 1.2px;
-      font-size: 1rem;
+      width: 18rem;
     }
   }
 `;

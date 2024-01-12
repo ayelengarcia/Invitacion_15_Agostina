@@ -7,7 +7,7 @@ export const Asistencia = styled.div`
 
   .box {
     transform: skewY(-3deg) !important;
-    padding: 0px !important;
+    margin-bottom: 40px;
   }
 
   .div-projects {
@@ -15,7 +15,7 @@ export const Asistencia = styled.div`
   }
 
   .texto {
-    font-size: 1.1rem;
+    font-size: 18px;
     margin: 0;
     font-weight: 400;
     letter-spacing: 1px;
@@ -65,23 +65,13 @@ export const Asistencia = styled.div`
     }
   }
 
-  @media (max-width: 769px) {
+  @media (min-width: 769px) {
     .texto {
-      font-size: 0.8rem;
-    }
-
-    .icon {
-      width: 3.5rem;
-    }
-
-    .btn {
-      font-size: 0.8rem;
-      letter-spacing: 2px;
-      filter: drop-shadow(-5px 5px 1px rgba(0, 0, 0, 0.25));
+      font-size: 22px;
     }
 
     .box {
-      margin-bottom: 40px !important;
+      padding: 0px;
     }
   }
 `;

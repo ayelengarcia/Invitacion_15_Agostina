@@ -10,7 +10,7 @@ const certificate = () => {
       id="invitacion"
       className=" row container-fluid d-flex justify-content-center py-5 px-1 mx-0 gap-3"
     >
-      <div className="box d-flex flex-column align-items-center gap-1 p-2">
+      <div className="box d-flex flex-column align-items-center gap-1 p-2 ">
         <div
           className="d-flex flex-column align-items-center content_box"
           data-aos="fade-down"
@@ -21,9 +21,8 @@ const certificate = () => {
           <img src="/assets/fecha.png" alt="Logo" className="img_fecha" />
 
           <p className="texto mt-1">Será una noche mágica de ensueños,</p>
-          <p className="texto mb-5">
-            por eso te invito a compartir esa magia conmigo.
-          </p>
+          <p className="texto ">por eso te invito a compartir</p>
+          <p className="texto mb-5">esa magia conmigo.</p>
         </div>
       </div>
     </Invitation>

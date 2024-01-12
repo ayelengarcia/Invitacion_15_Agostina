@@ -13,14 +13,28 @@ const asistencia = () => {
           data-aos-duration="1500"
           className="floating texto mt-3 d-flex justify-content-center"
         >
-          ¡Te invito a ser parte de una noche única y mágica,
+          ¡Te invito a ser parte
+        </p>
+        <p
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          className="floating texto d-flex justify-content-center"
+        >
+          de una noche única y mágica,
+        </p>
+        <p
+          data-aos="fade-down"
+          data-aos-duration="1500"
+          className="floating texto d-flex justify-content-center"
+        >
+          llena de alegría y momentos
         </p>
         <p
           data-aos="fade-down"
           data-aos-duration="1500"
           className="floating texto mb-3 d-flex justify-content-center"
         >
-          llena de alegría y momentos inolvidables!
+          inolvidables!
         </p>
         <div
           data-aos="fade-up"
