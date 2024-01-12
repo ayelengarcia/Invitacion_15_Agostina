@@ -12,7 +12,7 @@ const certificate = () => {
     >
       <div className="box d-flex flex-column align-items-center gap-1 p-2">
         <div
-          className="d-flex flex-column align-items-center"
+          className="d-flex flex-column align-items-center content_box"
           data-aos="fade-down"
           data-aos-duration="1500"
         >

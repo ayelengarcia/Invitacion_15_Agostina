@@ -64,6 +64,10 @@ export const Invitation = styled.div`
   }
 
   @media (max-width: 769px) {
+    .box {
+      margin: 30px 0px !important;
+    }
+
     .logo {
       width: 2.5rem;
     }
