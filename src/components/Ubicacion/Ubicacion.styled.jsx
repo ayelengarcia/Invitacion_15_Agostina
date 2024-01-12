@@ -137,13 +137,13 @@ export const Ubicacion = styled.div`
       width: 45px;
       height: 35px;
       border-radius: 5px;
-      font-size: 1.2rem;
+      font-size: 1.4rem;
       letter-spacing: 2px;
       border-radius: 3px;
     }
 
     .text {
-      font-size: 0.7rem;
+      font-size: 0.8rem;
     }
 
     .text-2 {
