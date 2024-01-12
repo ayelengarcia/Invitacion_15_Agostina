@@ -29,7 +29,7 @@ const asistencia = () => {
         >
           <a
             className="d-flex flex-column justify-content-center align-items-center py-3"
-            href="https://docs.google.com/forms/d/e/1FAIpQLScZW93WCwIIsiK0aygOVfNWny3EE77fjEscSLkmNzYXCs3B1Q/viewform?usp=sharing"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc4Lh5H5Xw6GAFteWA1UtGUvdGsZGkthDCA7xx3lz44IB3UbQ/viewformg"
             target="_blank"
             rel="noreferrer"
           >

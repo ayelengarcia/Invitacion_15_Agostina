@@ -9,7 +9,7 @@ AOS.init();
 const ubicacion = () => {
   //CUENTA REGRESIVA
   // eslint-disable-next-line react-hooks/exhaustive-deps
-  const targetDate = new Date("2024-02-10T17:00:00"); // Fecha objetivo
+  const targetDate = new Date("2024-02-10T21:00:00"); // Fecha objetivo
 
   // eslint-disable-next-line react-hooks/rules-of-hooks
   const [days, setDays] = useState(0);
