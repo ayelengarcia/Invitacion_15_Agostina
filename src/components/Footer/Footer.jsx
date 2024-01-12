@@ -15,7 +15,7 @@ const footer = () => {
             target="_blank"
           >
             <i className="bi bi-suitcase-lg pe-1"></i>
-            brujulaportfolio.netlify.app
+            brujula
           </a>
         </p>
       </div>

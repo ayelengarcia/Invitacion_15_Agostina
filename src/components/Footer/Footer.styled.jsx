@@ -11,7 +11,7 @@ export const Footer = styled.div`
 
   .dev-text,
   .bi-instagram {
-    font-size: 0.8rem;
+    font-size: 13px;
   }
 
   a {
@@ -26,23 +26,5 @@ export const Footer = styled.div`
     color: black;
     border-radius: 3px;
     transition: 0.5s;
-  }
-
-  @media (max-width: 769px) {
-    .corazon {
-      width: 70px;
-    }
-
-    .fin {
-      font-size: 1rem !important;
-    }
-
-    .gracias {
-      font-size: 2.5rem !important;
-    }
-
-    .dev-text {
-      font-size: 0.7rem;
-    }
   }
 `;
