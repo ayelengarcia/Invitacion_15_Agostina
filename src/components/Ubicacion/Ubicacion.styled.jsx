@@ -22,10 +22,11 @@ export const Ubicacion = styled.div`
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: 600;
     color: white;
     margin: 0px;
+    letter-spacing: 2px;
   }
 
   .text {
@@ -65,7 +66,6 @@ export const Ubicacion = styled.div`
 
     .cont {
       font-size: 2.2rem;
-      letter-spacing: 2px;
     }
   }
 `;

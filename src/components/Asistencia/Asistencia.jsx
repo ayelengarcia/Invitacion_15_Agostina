@@ -43,7 +43,7 @@ const asistencia = () => {
         >
           <a
             className="d-flex flex-column justify-content-center align-items-center py-3"
-            href="https://docs.google.com/forms/d/e/1FAIpQLSc4Lh5H5Xw6GAFteWA1UtGUvdGsZGkthDCA7xx3lz44IB3UbQ/viewformg"
+            href="https://docs.google.com/forms/d/e/1FAIpQLSc4Lh5H5Xw6GAFteWA1UtGUvdGsZGkthDCA7xx3lz44IB3UbQ/viewform?usp=pp_url&entry.1708644058=Prueba&entry.610006024=piloto"
             target="_blank"
             rel="noreferrer"
           >
