@@ -11,7 +11,7 @@ export const Footer = styled.div`
 
   .dev-text,
   .bi-instagram {
-    font-size: 13px;
+    font-size: 0.8rem;
   }
 
   a {

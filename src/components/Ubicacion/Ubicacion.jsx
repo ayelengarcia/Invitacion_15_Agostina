@@ -68,7 +68,7 @@ const ubicacion = () => {
           data-aos-duration="2000"
           data-aos-delay="100"
           data-aos-offset="200"
-          className="d-flex contador py-3 px-5 gap-4"
+          className="d-flex contador py-3 gap-4"
         >
           <div className="d-flex flex-column align-items-center">
             <p className="cont">{days} : </p>

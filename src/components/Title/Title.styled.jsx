@@ -162,12 +162,13 @@ export const Title = styled.div`
   .presentacion {
     color: black;
     padding-top: 30px !important;
+    overflow: hidden;
   }
 
   h1 {
     font-family: "Lavishly Yours";
     line-height: 150% !important;
-    font-size: 110px;
+    font-size: 7rem;
     z-index: 10000;
     position: relative;
     color: white;
@@ -176,7 +177,7 @@ export const Title = styled.div`
 
   .años {
     position: relative;
-    font-size: 80px;
+    font-size: 4.5rem;
     top: -140px;
     z-index: 10001;
     color: #d2a84e;
@@ -184,7 +185,7 @@ export const Title = styled.div`
 
   .agos {
     position: relative;
-    font-size: 60px;
+    font-size: 3.5rem;
     top: -180px;
     z-index: 10001;
     color: white;
@@ -194,16 +195,16 @@ export const Title = styled.div`
     background-image: url(/assets/fondo.png);
 
     h1 {
-      font-size: 160px;
+      font-size: 8rem;
     }
 
     .años {
-      font-size: 120px;
+      font-size: 6rem;
       top: -170px;
     }
 
     .agos {
-      font-size: 110px;
+      font-size: 6rem;
       top: -220px;
     }
 

@@ -15,7 +15,7 @@ export const Asistencia = styled.div`
   }
 
   .texto {
-    font-size: 18px;
+    font-size: 1.1rem;
     margin: 0;
     font-weight: 400;
     letter-spacing: 1px;
@@ -66,10 +66,6 @@ export const Asistencia = styled.div`
   }
 
   @media (min-width: 769px) {
-    .texto {
-      font-size: 22px;
-    }
-
     .box {
       padding: 0px;
     }

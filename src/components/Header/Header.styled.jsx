@@ -29,11 +29,11 @@ export const Header = styled.header`
   }
 
   .logo_menu {
-    width: 2.7rem;
+    width: 2rem;
   }
 
   .menu {
-    padding: 8px 20px;
+    padding: 8px 10px;
     font-size: 1rem;
     border: 1px solid black;
   }
